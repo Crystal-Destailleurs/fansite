@@ -1,0 +1,145 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive; /* Changer la police de toute la page */
+}
+/* Styles pour le header */
+header {
+    background-color: #666; /* Couleur de la bande grise */
+    text-align: center;
+    padding: 20px;
+}
+.header-image{
+    border-radius: 20px;
+}
+
+h1 a {
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: navajowhite;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+}
+
+/* Styles pour la grille de colonnes */
+.column {
+    justify-content: center;
+ box-shadow: #666;
+    width: 30%; /* Largeur des colonnes */
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color:#ffe7a6; /* Couleur de fond des colonnes */
+}
+/* Styles pour les sections de recettes */
+.column {
+  
+    border: rgb(73, 71, 71);
+    border-radius: 20px 20px 20px 20px ;
+    flex-basis: calc(33.33% - 20px);
+    width: 30%; /* Utilisez des pourcentages pour les colonnes */
+
+    text-align: center;
+
+}
+
+/* Styles pour le fond de la page */
+.beige-background {
+    background-color: #F2D88F; /* Couleur de fond beige */
+}
+
+/* Page histoire du pain */
+
+
+h1 { 
+    margin-top: 20px;
+text-align: center;
+}
+.partieun {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.partie2 {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blé{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Cette propriété permet de centrer l'image horizontalement */
+}
+
+.blé img{
+    border-radius: 20px;
+}
+.paincoupé {
+
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+}
+
+.paincoupé img {
+    border-radius: 20px;
+}
+
+.paindemie {
+margin-top: 20px; 
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.paindemie img {
+    border-radius: 20px;
+}
+
+.partie3 {
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.patepain {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+}
+.patepain img {
+    border-radius: 20px;
+}
+.video {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+}
